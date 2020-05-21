@@ -24,7 +24,7 @@ Next is to edit *secret* script
 
 Where:
    *  <USERNAME> is your github username
-   *  <API TOKEN> is your Personal Token with the right permissions. Credit 'here <https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line>'_ for instructions for creating a token
+   *  <API TOKEN> is your Personal Token with the right permissions. Credit `here <https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line>`_ for instructions for creating a token
    *  <AUTHOR> is the name you wish to show as author in your README.rst
 
 Lastly, move your *gitproj* and *secret* to your bin.
