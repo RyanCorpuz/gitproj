@@ -9,7 +9,9 @@ One paragraph of project description goes here
 Setup
 ------------
 Installing gitproj:
+
    ::
+
       $  git clone git://github.com/RyanCorpuz/gitproj.git
 
 Hello
