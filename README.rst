@@ -6,7 +6,8 @@ gitproj
 :Version: 1.0
 One paragraph of project description goes here
 
-## Installation
+Installation
+------------
 
 Instructions
 What things you need to install
@@ -15,7 +16,8 @@ What things you need to install
 Give examples
 '''
 
-## Usage
+Usage
+-----
 
 A Step by step series of examples
 Say what the step will be
@@ -32,7 +34,9 @@ until finished
 
 End with an ex of getting some data out of the system or using it for a little demo
 
-## Contributing
+Contributing
+------------
 
-## License
+License
+-------
 [MIT](https://choosealicense.com/licenses/mit/)
