@@ -14,15 +14,20 @@ Installing gitproj:
 
       $  git clone git://github.com/RyanCorpuz/gitproj.git
 
-Hello
-^^^^^
+Next is to edit *secret* script
 
-'API Token <https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line>'
+   ::
 
+      GIT_USERNAME=<USERNAME>
+      GIT_API_TOKEN=<API TOKEN>
+      AUTHOR=<AUTHOR>
 
-'''
-Give examples
-'''
+Where:
+   *  <USERNAME> is your github username
+   *  <API TOKEN> is your Personal Token with the right permissions. Credit 'here <https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line>' for instructions for creating a token
+   *  <AUTHOR> is the name you wish to show as author in your README.rst
+
+Lastly, move your *gitproj* and *secret* to your bin.
 
 Usage
 -----
