@@ -1,5 +1,8 @@
 # gitproj: [Concise descriptor]
 
+:Author:	Ryan Corpuz
+:Source:	https://github.com/RyanCorpuz/gitproj
+:Version: 1.0
 One paragraph of project description goes here
 
 ## Installation
