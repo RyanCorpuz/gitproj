@@ -1,4 +1,5 @@
-# gitproj: [Concise descriptor]
+gitproj
+=======
 
 :Author:	Ryan Corpuz
 :Source:	https://github.com/RyanCorpuz/gitproj
