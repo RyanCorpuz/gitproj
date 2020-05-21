@@ -32,6 +32,14 @@ Lastly, move your *gitproj* and *secret* to your bin.
 Usage
 -----
 
+   ::
+
+         Usage: gitproj [option] [repo name]
+
+            -h, --help               show help text
+            -p, --private            make repo private   
+
+         Create github repo with current name
 
 '''
 Give the example

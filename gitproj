@@ -1,30 +1,13 @@
 #!/usr/bin/sh
 
 # ------------------------------------------------
-# Usage: gitproj [options] [--] [<shell-script>...]
+# Usage: gitproj [option] [repo name]
 #
 #     -h, --help               show help text
-#     --version                show version
-#     -t, --text               produce plain text (default format)
-#     -m, --markdown           produce markdown
-#     -a, --access <level>     filter by access level
+#     -p, --private            make repo private   
 #
-# Parse TomDoc'd shell scripts and generate pretty documentation from it.
-#
-# Written by Mathias Lafeldt <mathias.lafeldt@gmail.com>
-# ------------------------------------------------
-# [Ryan Corpuz]	
-# NAME
-#		gitproj	-	Create github repo with current name
-#
-# SYNOPSIS
-#		gitproj	[OPTION] [PROJECT NAME]
-#
-# DESCRIPTION
-#		Creates github repo of specified name
-#
-#		-p
-#			creates a private github repo
+# Create github repo with current name
+# Written by Ryan Corpuz
 # ------------------------------------------------
 
 package=gitproj
@@ -50,7 +33,7 @@ while test $# -gt 0; do
       		echo "-p, --private			set repo to be private"
       		exit 0
       		;;
-		-p)
+		-p|--private)
 			shift
     	  	if test $# -gt 0; then
 				local=$1
