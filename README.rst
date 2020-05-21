@@ -32,8 +32,6 @@ Lastly, move your *gitproj* and *secret* to your bin.
 Usage
 -----
 
-A Step by step series of examples
-Say what the step will be
 
 '''
 Give the example

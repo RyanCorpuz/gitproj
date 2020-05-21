@@ -1,6 +1,18 @@
 #!/usr/bin/sh
 
 # ------------------------------------------------
+# Usage: gitproj [options] [--] [<shell-script>...]
+#
+#     -h, --help               show help text
+#     --version                show version
+#     -t, --text               produce plain text (default format)
+#     -m, --markdown           produce markdown
+#     -a, --access <level>     filter by access level
+#
+# Parse TomDoc'd shell scripts and generate pretty documentation from it.
+#
+# Written by Mathias Lafeldt <mathias.lafeldt@gmail.com>
+# ------------------------------------------------
 # [Ryan Corpuz]	
 # NAME
 #		gitproj	-	Create github repo with current name
