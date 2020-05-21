@@ -61,4 +61,4 @@ License
 -------
 gitproj is licensed under the terms of the MIT License. See `LICENSE`_ file.
 
-_LICENSE: https://github.com/RyanCorpuz/gitproj/blob/master/LICENSE
+.. _LICENSE: https://github.com/RyanCorpuz/gitproj/blob/master/LICENSE
