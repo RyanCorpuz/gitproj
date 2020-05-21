@@ -33,10 +33,3 @@ until finished
 '''
 
 End with an ex of getting some data out of the system or using it for a little demo
-
-Contributing
-------------
-
-License
--------
-[MIT](https://choosealicense.com/licenses/mit/)
