@@ -63,15 +63,23 @@ mkcd () {
 
 
 mkcd "$local"
-touch README.md
+touch README.rst
 
-### Creation of README.md
-cat <<EOF > README.md
-# ${local}: [Concise descriptor]
+### Creation of README.rst
+cat <<EOF > README.rst
+${local}
+========
 
+gitproj
+=======
+
+:Author:	$AUTHOR
+:Source:	https://github.com/$GIT_USERNAME/$local
+:Version: 
 One paragraph of project description goes here
 
-## Installation
+Installation
+------------
 
 Instructions
 What things you need to install
@@ -80,7 +88,8 @@ What things you need to install
 Give examples
 '''
 
-## Usage
+Usage
+-----
 
 A Step by step series of examples
 Say what the step will be
@@ -96,11 +105,6 @@ until finished
 '''
 
 End with an ex of getting some data out of the system or using it for a little demo
-
-## Contributing
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
 EOF
 
 # Initializes local git and adds this to remote repo just created

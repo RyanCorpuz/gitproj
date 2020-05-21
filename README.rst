@@ -6,11 +6,17 @@ gitproj
 :Version: 1.0
 One paragraph of project description goes here
 
-Installation
+Setup
 ------------
+Installing gitproj:
+   ::
+      $  git clone git://github.com/RyanCorpuz/gitproj.git
 
-Instructions
-What things you need to install
+Hello
+^^^^^
+
+'API Token https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line'
+
 
 '''
 Give examples
@@ -33,3 +39,6 @@ until finished
 '''
 
 End with an ex of getting some data out of the system or using it for a little demo
+
+License
+-------
