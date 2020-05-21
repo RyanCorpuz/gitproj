@@ -41,17 +41,25 @@ Usage
 
          Create github repo with current name
 
-'''
-Give the example
-'''
+Example Use
+To make a local directory and a github repo called *myproject*:
 
-And repeat
+   ::
+   
+      $ gitproj myproject
 
-'''
-until finished
-'''
+This yields the following directory structure (local and github repo):
+
+   ::
+
+      myproject
+      |-README.rst
 
 End with an ex of getting some data out of the system or using it for a little demo
 
 License
 -------
+gitproj is licensed under the terms of the MIT License. See `LICENSE`_ file.
+
+
+
