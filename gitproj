@@ -65,9 +65,6 @@ cat <<EOF > README.rst
 ${local}
 ========
 
-gitproj
-=======
-
 :Author:	$AUTHOR
 :Source:	https://github.com/$GIT_USERNAME/$local
 :Version: 
